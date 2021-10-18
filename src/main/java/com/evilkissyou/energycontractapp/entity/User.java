@@ -24,7 +24,7 @@ import java.util.Set;
 @JsonSerialize(using = UserSerializer.class)
 
 @Entity
-@Table(name = "users", schema="energy")
+@Table(name = "users")
 @Data
 @EqualsAndHashCode(callSuper = true)
 public class User extends BaseEntity {

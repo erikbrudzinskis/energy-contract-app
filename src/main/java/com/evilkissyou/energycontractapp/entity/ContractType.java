@@ -13,7 +13,7 @@ import java.util.Set;
  */
 
 @Entity
-@Table(name = "contracts_types", schema="energy")
+@Table(name = "contracts_types")
 @Data
 @EqualsAndHashCode(callSuper = true)
 public class ContractType extends BaseEntity {

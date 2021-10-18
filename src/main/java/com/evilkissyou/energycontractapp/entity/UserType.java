@@ -19,7 +19,7 @@ import java.util.Set;
         property = "id")
 
 @Entity
-@Table(name = "users_types", schema="energy")
+@Table(name = "users_types")
 @Data
 @EqualsAndHashCode(callSuper = true)
 public class UserType extends BaseEntity {

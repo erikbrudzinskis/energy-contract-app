@@ -16,7 +16,7 @@ import java.time.LocalDate;
 @JsonSerialize(using = ContractSerializer.class)
 
 @Entity
-@Table(name = "contracts", schema="energy")
+@Table(name = "contracts")
 @Data
 @EqualsAndHashCode(callSuper = true)
 public class Contract extends BaseEntity {

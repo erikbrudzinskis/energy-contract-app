@@ -1,0 +1,16 @@
+# Database connectivity setup
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+
+# Logging setup
+logging:
+  level.: INFO
+
+# ResponseStatusException to return the error specified in Json
+server:
+  error:
+    include-message: always
